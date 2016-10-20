@@ -1,0 +1,38 @@
+div.container {
+    width: auto;
+    border: 25px solid green;
+    padding: 25px;
+    margin: 25px;
+    box-sizing: border-box;
+}
+
+#horrormale, #horrorfemale, #fictionmale, #fictionfemale {
+    display: none;
+}
+
+p {
+  font-size: 100px;
+  color: blue;
+
+}
+div.well {
+  display: auto;
+  background-color: black;
+}
+
+body {
+  background-image: url("../img/celebrity.jpg");
+
+}
+.btn{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+img{
+  width:650px;
+  height:auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
