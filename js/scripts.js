@@ -1,6 +1,6 @@
 $(document).ready(function(){
   $("#dating").submit(function(event) {
-    $("#malerock, #femalerock, #enbyrock, #malerap, #femalerap, #enbyrap").hide();
+    $("#horrormale, #horrorfemale, #fictionmale, #ffictionfemale").hide();
 
     var books = $("select#books").val();
     var gender = $("select#gender").val();
